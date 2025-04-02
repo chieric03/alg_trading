@@ -1,0 +1,13 @@
+prefix=/Users/ericchi/Projects/Alg_Trading/venv
+exec_prefix=/Users/ericchi/Projects/Alg_Trading/venv
+libdir=/Users/ericchi/Projects/Alg_Trading/venv/lib
+sharedlibdir=/Users/ericchi/Projects/Alg_Trading/venv/lib
+includedir=/Users/ericchi/Projects/Alg_Trading/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
