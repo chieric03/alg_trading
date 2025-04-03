@@ -11,6 +11,7 @@ Requires-Dist: matplotlib
 Requires-Dist: pandas_datareader
 Requires-Dist: yfinance
 Requires-Dist: XlsxWriter
+Requires-Dist: plotly
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist
