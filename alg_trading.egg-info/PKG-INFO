@@ -1,0 +1,16 @@
+Metadata-Version: 2.2
+Name: alg_trading
+Version: 1.0.0
+Author: Eric Chi
+Author-email: Chieric03@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: ipykernel
+Requires-Dist: jupyter
+Requires-Dist: matplotlib
+Requires-Dist: pandas_datareader
+Requires-Dist: yfinance
+Requires-Dist: XlsxWriter
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

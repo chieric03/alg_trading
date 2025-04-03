@@ -1,0 +1,7 @@
+README.md
+setup.py
+alg_trading.egg-info/PKG-INFO
+alg_trading.egg-info/SOURCES.txt
+alg_trading.egg-info/dependency_links.txt
+alg_trading.egg-info/requires.txt
+alg_trading.egg-info/top_level.txt
