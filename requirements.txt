@@ -7,4 +7,5 @@ pandas_datareader
 yfinance
 XlsxWriter
 plotly
+backtesting
 -e .
