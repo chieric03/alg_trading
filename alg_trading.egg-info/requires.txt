@@ -8,3 +8,4 @@ yfinance
 XlsxWriter
 plotly
 backtesting
+backtrader

@@ -13,6 +13,7 @@ Requires-Dist: yfinance
 Requires-Dist: XlsxWriter
 Requires-Dist: plotly
 Requires-Dist: backtesting
+Requires-Dist: backtrader
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist
