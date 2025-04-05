@@ -9,3 +9,5 @@ XlsxWriter
 plotly
 backtesting
 backtrader
+ta-lib
+sambo
