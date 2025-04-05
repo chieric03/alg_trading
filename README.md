@@ -17,4 +17,4 @@
 - *Machine Learning for Trading by Stefan Jansen ([link](https://github.com/stefan-jansen/machine-learning-for-trading))* 
 
 ## Files:
-- __intro.ipynb__ - This is the first notebook in the project. Used as an introduction to indicators, charting, signals using just pandas and plotly. I also try to explains basic indicators and how signals work. A way to scratch the surface of technical analysis.
+- __intro.ipynb__ - This is the first notebook in the project. Used as an introduction to indicators, charting, signals using just pandas and plotly. I also try to explains basic indicators and how signals work. A way to scratch the surface of technical analysis. Also explains basic indicators like EMA and MACD. In each following individual usage of new indicators I will explain them
