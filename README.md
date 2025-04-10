@@ -22,6 +22,8 @@
 
 
 ## Main framework (backtesting_framework)
+- to run % python backtesting_framework/run_backtest.py
+- e.g. % python backtesting_framework/run_backtest.py RsiAtrExitStrategy NQ=F 2025-03-10 2025-03-20 -i 15m  --plot
 - Strategies classes are made in the form of ([documentation](https://kernc.github.io/backtesting.py/doc/backtesting/backtesting.html#gsc.tab=0))
 
 run_backtest.py [-h] [-i INTERVAL] [-c CASH]
@@ -57,3 +59,6 @@ options:
   --heatmap PARAM1 PARAM2: 
                         Generate optimization heatmap for
                         PARAM1 vs PARAM2 after optimizing.
+
+### WIP
+- creating a UI to streamline running framework
