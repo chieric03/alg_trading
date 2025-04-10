@@ -5,3 +5,12 @@ alg_trading.egg-info/SOURCES.txt
 alg_trading.egg-info/dependency_links.txt
 alg_trading.egg-info/requires.txt
 alg_trading.egg-info/top_level.txt
+backtesting_framework/__init__.py
+backtesting_framework/run_backtest.py
+backtesting_framework/data_handler/__init__.py
+backtesting_framework/data_handler/fetcher.py
+backtesting_framework/reporting/__init__.py
+backtesting_framework/reporting/optimizer_plots.py
+backtesting_framework/strategies/__init__.py
+backtesting_framework/strategies/ema_cross.py
+backtesting_framework/utils/__init__.py

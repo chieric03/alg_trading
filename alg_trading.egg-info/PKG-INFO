@@ -1,4 +1,4 @@
-Metadata-Version: 2.2
+Metadata-Version: 2.1
 Name: alg_trading
 Version: 1.0.0
 Author: Eric Chi
@@ -16,6 +16,6 @@ Requires-Dist: backtesting
 Requires-Dist: backtrader
 Requires-Dist: ta-lib
 Requires-Dist: sambo
-Dynamic: author
-Dynamic: author-email
-Dynamic: requires-dist
+Requires-Dist: joblib
+Requires-Dist: scikit-learn
+Requires-Dist: scipy

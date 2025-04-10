@@ -11,3 +11,6 @@ backtesting
 backtrader
 ta-lib
 sambo
+joblib
+scikit-learn
+scipy
