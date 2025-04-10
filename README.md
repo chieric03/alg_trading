@@ -18,3 +18,42 @@
 
 ## Files:
 - __intro.ipynb__ - This is the first notebook in the project. Used as an introduction to indicators, charting, signals using just pandas and plotly. I also try to explains basic indicators and how signals work. A way to scratch the surface of technical analysis. Also explains basic indicators like EMA and MACD. In each following individual usage of new indicators I will explain them
+- __backtest_intro.ipynb__ - Getting a feel for the backtesting.py library
+
+
+## Main framework (backtesting_framework)
+- Strategies classes are made in the form of ([documentation](https://kernc.github.io/backtesting.py/doc/backtesting/backtesting.html#gsc.tab=0))
+
+run_backtest.py [-h] [-i INTERVAL] [-c CASH]
+                       [--commission COMMISSION]
+                       [--optimize] [--plot]
+                       [--heatmap PARAM1 PARAM2]
+                       strategy_name ticker start_date
+                       end_date
+
+positional arguments:
+  - strategy_name         : Name of the strategy class (e.g.,
+                        EmaCrossStrategy).
+
+  - ticker                : Ticker symbol (e.g., NQ=F, AAPL).
+  - start_date            : Start date for backtest (YYYY-MM-
+                        DD).
+  - end_date              End date for backtest (YYYY-MM-DD).
+
+options:  
+  -h, --help            : show this help message and exit  
+  -i INTERVAL, --interval INTERVAL: 
+                        Data interval (e.g., 1m, 15m, 1h,
+                        1d). Default: 1d  
+  -c CASH, --cash CASH  : Initial cash for backtest. Default:
+                        100,000  
+  --commission COMMISSION :
+                        Commission per trade. Default:
+                        0.0002  
+  --optimize            : Run optimization instead of a single
+                        backtest.  
+  --plot                : Show the backtesting plot after
+                        running.  
+  --heatmap PARAM1 PARAM2: 
+                        Generate optimization heatmap for
+                        PARAM1 vs PARAM2 after optimizing.
