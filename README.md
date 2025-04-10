@@ -60,5 +60,10 @@ options:
                         Generate optimization heatmap for
                         PARAM1 vs PARAM2 after optimizing.
 
+<img src="/pictures/exampleoutput.png" alt="alt text" width="400" height="300"/>
+<img src="/pictures/exampleplot.png" alt="alt text" width="400" height="300"/>
+
+
+
 ### WIP
 - creating a UI to streamline running framework
